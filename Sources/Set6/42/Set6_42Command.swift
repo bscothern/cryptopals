@@ -9,5 +9,10 @@
 import ArgumentParser
 
 public struct Set6_42Command: ParsableCommand {
+    public static let configuration: CommandConfiguration = .init(
+        commandName: "ex42",
+        abstract: "Bleichenbacher's e=3 RSA Attack"
+    )
+
     public init() {}
 }

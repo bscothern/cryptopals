@@ -16,7 +16,7 @@ import Set8_62
 import Set8_63
 import Set8_64
 
-public struct Set8: ParsableCommand {
+public struct Set8Command: ParsableCommand {
     public static let configuration: CommandConfiguration = .init(
         commandName: "set8",
         abstract: "Abstract Algebra",
@@ -31,6 +31,6 @@ public struct Set8: ParsableCommand {
             Set8_64Command.self,
         ]
     )
-    
+
     public init() {}
 }

@@ -29,7 +29,7 @@ extension Target {
 let package = Package(
     name: "cryptopals",
     products: [
-        .library(
+        .executable(
             name: "cryptopals",
             targets: ["cryptopals"]
         ),
@@ -38,7 +38,7 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-argument-parser", from: "1.0.0"),
     ],
     targets: [
-        .target(
+        .executableTarget(
             name: "cryptopals",
             dependencies: [
                 .target(name: "Set1"),

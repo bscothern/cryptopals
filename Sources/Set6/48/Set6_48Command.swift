@@ -9,5 +9,10 @@
 import ArgumentParser
 
 public struct Set6_48Command: ParsableCommand {
+    public static let configuration: CommandConfiguration = .init(
+        commandName: "ex48",
+        abstract: "Bleichenbacher's PKCS 1.5 Padding Oracle (Complete Case)"
+    )
+
     public init() {}
 }

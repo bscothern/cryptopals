@@ -9,5 +9,9 @@
 import ArgumentParser
 
 public struct Set1_1Command: ParsableCommand {
+    public static let configuration: CommandConfiguration = .init(
+        commandName: "ex1",
+        abstract: "Convert hex to base64"
+    )
     public init() {}
 }

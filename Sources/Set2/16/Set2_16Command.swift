@@ -9,5 +9,10 @@
 import ArgumentParser
 
 public struct Set2_16Command: ParsableCommand {
+    public static let configuration: CommandConfiguration = .init(
+        commandName: "ex16",
+        abstract: "CBC bitflipping attacks"
+    )
+
     public init() {}
 }

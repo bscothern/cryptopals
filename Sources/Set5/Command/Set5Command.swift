@@ -16,7 +16,7 @@ import Set5_38
 import Set5_39
 import Set5_40
 
-public struct Set5: ParsableCommand {
+public struct Set5Command: ParsableCommand {
     public static let configuration: CommandConfiguration = .init(
         commandName: "set5",
         abstract: "Diffie-Hellman and friends",
@@ -31,6 +31,6 @@ public struct Set5: ParsableCommand {
             Set5_40Command.self,
         ]
     )
-    
+
     public init() {}
 }

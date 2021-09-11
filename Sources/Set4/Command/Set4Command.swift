@@ -16,7 +16,7 @@ import Set4_30
 import Set4_31
 import Set4_32
 
-public struct Set4: ParsableCommand {
+public struct Set4Command: ParsableCommand {
     public static let configuration: CommandConfiguration = .init(
         commandName: "set4",
         abstract: "Stream crypto and randomness",
@@ -31,6 +31,6 @@ public struct Set4: ParsableCommand {
             Set4_32Command.self,
         ]
     )
-    
+
     public init() {}
 }

@@ -9,5 +9,10 @@
 import ArgumentParser
 
 public struct Set2_15Command: ParsableCommand {
+    public static let configuration: CommandConfiguration = .init(
+        commandName: "ex15",
+        abstract: "PKCS#7 padding validation"
+    )
+
     public init() {}
 }

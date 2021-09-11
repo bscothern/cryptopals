@@ -9,5 +9,10 @@
 import ArgumentParser
 
 public struct Set5_36Command: ParsableCommand {
+    public static let configuration: CommandConfiguration = .init(
+        commandName: "ex36",
+        abstract: "Implment Secure Remote Password (SRP)"
+    )
+
     public init() {}
 }

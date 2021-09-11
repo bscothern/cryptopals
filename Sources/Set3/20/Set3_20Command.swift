@@ -9,5 +9,10 @@
 import ArgumentParser
 
 public struct Set3_20Command: ParsableCommand {
+    public static let configuration: CommandConfiguration = .init(
+        commandName: "ex20",
+        abstract: "Break fixed-nonce CTR statistically"
+    )
+
     public init() {}
 }

@@ -9,5 +9,10 @@
 import ArgumentParser
 
 public struct Set8_62Command: ParsableCommand {
+    public static let configuration: CommandConfiguration = .init(
+        commandName: "ex62",
+        abstract: "Key-Recovery Attacks on ECDSA with Biased Nonces"
+    )
+
     public init() {}
 }

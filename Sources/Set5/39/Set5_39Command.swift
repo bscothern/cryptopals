@@ -9,5 +9,10 @@
 import ArgumentParser
 
 public struct Set5_39Command: ParsableCommand {
+    public static let configuration: CommandConfiguration = .init(
+        commandName: "ex39",
+        abstract: "Implement RSA"
+    )
+
     public init() {}
 }

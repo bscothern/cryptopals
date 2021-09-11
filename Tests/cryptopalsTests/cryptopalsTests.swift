@@ -1,5 +1,5 @@
-import XCTest
 @testable import cryptopals
+import XCTest
 
 final class cryptopalsTests: XCTestCase {
     func testExample() throws {

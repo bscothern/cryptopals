@@ -9,5 +9,10 @@
 import ArgumentParser
 
 public struct Set7_52Command: ParsableCommand {
+    public static let configuration: CommandConfiguration = .init(
+        commandName: "ex52",
+        abstract: "Iterated Hash FUnction Multicollisions"
+    )
+
     public init() {}
 }

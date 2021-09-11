@@ -9,5 +9,10 @@
 import ArgumentParser
 
 public struct Set2_13Command: ParsableCommand {
+    public static let configuration: CommandConfiguration = .init(
+        commandName: "ex13",
+        abstract: "ECB cut-and-paste"
+    )
+
     public init() {}
 }

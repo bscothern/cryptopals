@@ -9,5 +9,10 @@
 import ArgumentParser
 
 public struct Set5_40Command: ParsableCommand {
+    public static let configuration: CommandConfiguration = .init(
+        commandName: "ex40",
+        abstract: "Implement an E=3 RSA Broadcast attack"
+    )
+
     public init() {}
 }

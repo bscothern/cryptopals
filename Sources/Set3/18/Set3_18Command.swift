@@ -9,5 +9,10 @@
 import ArgumentParser
 
 public struct Set3_18Command: ParsableCommand {
+    public static let configuration: CommandConfiguration = .init(
+        commandName: "ex18",
+        abstract: "Implement CTR, the stream cipher mode"
+    )
+
     public init() {}
 }

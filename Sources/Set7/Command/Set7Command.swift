@@ -16,7 +16,7 @@ import Set7_54
 import Set7_55
 import Set7_56
 
-public struct Set7: ParsableCommand {
+public struct Set7Command: ParsableCommand {
     public static let configuration: CommandConfiguration = .init(
         commandName: "set7",
         abstract: "Hashes",
@@ -31,6 +31,6 @@ public struct Set7: ParsableCommand {
             Set7_56Command.self,
         ]
     )
-    
+
     public init() {}
 }

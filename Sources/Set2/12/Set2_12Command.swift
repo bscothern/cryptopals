@@ -9,5 +9,10 @@
 import ArgumentParser
 
 public struct Set2_12Command: ParsableCommand {
+    public static let configuration: CommandConfiguration = .init(
+        commandName: "ex12",
+        abstract: "Byte-at-a-time ECB decryption (Simple)"
+    )
+
     public init() {}
 }

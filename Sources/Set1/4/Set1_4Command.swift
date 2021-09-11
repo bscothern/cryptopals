@@ -9,5 +9,10 @@
 import ArgumentParser
 
 public struct Set1_4Command: ParsableCommand {
+    public static let configuration: CommandConfiguration = .init(
+        commandName: "ex4",
+        abstract: "Detect single-character XOR"
+    )
+
     public init() {}
 }

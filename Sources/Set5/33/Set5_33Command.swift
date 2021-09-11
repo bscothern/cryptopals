@@ -9,5 +9,10 @@
 import ArgumentParser
 
 public struct Set5_33Command: ParsableCommand {
+    public static let configuration: CommandConfiguration = .init(
+        commandName: "ex33",
+        abstract: "Implement Diffie-Hellman"
+    )
+
     public init() {}
 }

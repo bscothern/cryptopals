@@ -9,5 +9,10 @@
 import ArgumentParser
 
 public struct Set8_57Command: ParsableCommand {
+    public static let configuration: CommandConfiguration = .init(
+        commandName: "ex57",
+        abstract: "Diffie-Hellman Revisited: Small Subgroup Confinement"
+    )
+
     public init() {}
 }

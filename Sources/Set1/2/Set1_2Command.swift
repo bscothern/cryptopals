@@ -9,5 +9,10 @@
 import ArgumentParser
 
 public struct Set1_2Command: ParsableCommand {
+    public static let configuration: CommandConfiguration = .init(
+        commandName: "ex2",
+        abstract: "Fixed XOR"
+    )
+
     public init() {}
 }

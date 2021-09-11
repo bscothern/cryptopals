@@ -7,7 +7,6 @@
 //
 
 import ArgumentParser
-import Set2_9
 import Set2_10
 import Set2_11
 import Set2_12
@@ -15,8 +14,9 @@ import Set2_13
 import Set2_14
 import Set2_15
 import Set2_16
+import Set2_9
 
-public struct Set2: ParsableCommand {
+public struct Set2Command: ParsableCommand {
     public static let configuration: CommandConfiguration = .init(
         commandName: "set2",
         abstract: "Block crypto",
@@ -31,6 +31,6 @@ public struct Set2: ParsableCommand {
             Set2_16Command.self,
         ]
     )
-    
+
     public init() {}
 }

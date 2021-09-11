@@ -9,5 +9,10 @@
 import ArgumentParser
 
 public struct Set6_46Command: ParsableCommand {
+    public static let configuration: CommandConfiguration = .init(
+        commandName: "ex46",
+        abstract: "RSA parity oracle"
+    )
+
     public init() {}
 }

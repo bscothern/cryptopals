@@ -9,5 +9,10 @@
 import ArgumentParser
 
 public struct Set8_64Command: ParsableCommand {
+    public static let configuration: CommandConfiguration = .init(
+        commandName: "ex64",
+        abstract: "Key-Recovery Attacks on GCM with a Truncated MAC"
+    )
+
     public init() {}
 }

@@ -9,5 +9,10 @@
 import ArgumentParser
 
 public struct Set4_25Command: ParsableCommand {
+    public static let configuration: CommandConfiguration = .init(
+        commandName: "ex25",
+        abstract: #"Break "random access read/write" AES CTR"#
+    )
+
     public init() {}
 }

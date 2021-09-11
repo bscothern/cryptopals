@@ -9,5 +9,10 @@
 import ArgumentParser
 
 public struct Set7_49Command: ParsableCommand {
+    public static let configuration: CommandConfiguration = .init(
+        commandName: "ex49",
+        abstract: "CBC-MAC Message Forgery"
+    )
+
     public init() {}
 }

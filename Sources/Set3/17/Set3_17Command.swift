@@ -9,5 +9,10 @@
 import ArgumentParser
 
 public struct Set3_17Command: ParsableCommand {
+    public static let configuration: CommandConfiguration = .init(
+        commandName: "ex17",
+        abstract: "The CBC padding oracle"
+    )
+
     public init() {}
 }
