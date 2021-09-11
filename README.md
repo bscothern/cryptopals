@@ -3,7 +3,6 @@
 An implementation of the challenges found at https://cryptopals.com
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)
-![SwiftPM](https://img.shields.io/badge/SwiftPM-compatible-brightgreen.svg)
 ![Swift Versions](https://img.shields.io/badge/Swift-5.4+-orange.svg)
 
 ## Exercises
